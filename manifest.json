@@ -1,0 +1,13 @@
+{
+  "name": "Blink",
+  "description": "A fresh new tab page everytime. Brings you beautiful imagery from unsplash.com",
+  "version": "0.2",
+  "incognito": "split",
+  "chrome_url_overrides": {
+    "newtab": "blink.html"
+  },
+  "manifest_version": 2,
+  "permissions": [
+    "http://quotesondesign.com/*"
+  ]
+}
